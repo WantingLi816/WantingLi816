@@ -1,0 +1,99 @@
+.cool-class {
+    font-weight: bold;
+    color: rgb(231, 149, 56);
+  }
+
+  #cool-id {
+    color: blue;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .body {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .intro {
+      text-align: center;
+  }
+
+  .about-grid {
+      display: grid;
+      grid-template-columns: 50% 50%;
+  }
+  .about-section {
+      text-align: center;
+      text-decoration: none;
+  }
+
+  .about-list {
+      list-style: none;
+      padding: 0;
+  }
+
+  @media (max-width: 480px) {
+    .about-grid {
+      grid-template-columns: 100%;
+    }
+  }
+
+  .contact {
+      display: grid;
+      grid-template-columns: 30% 70%;
+  }
+  .links {
+      justify-self: center;
+  }
+  .links-list {
+      list-style: none;
+  }
+  @media (max-width: 650xp) {
+      .links-and-contact {
+          grid-template-columns: 100%;
+      }
+  }
+  .heading {
+      text-align: center;
+  }
+
+form input,
+textarea {
+  padding: 5px;
+  border-radius: 5px;
+  width: 240px;
+}
+
+form {
+  width: 250px;
+  margin: 0 auto;
+}
+
+form input[type='submit'] {
+  width: 250px;
+}
+
+.submit-button-wrapper {
+  margin: 8px 0;
+}
+
+.form-heading {
+  margin-bottom: 8px !important;
+}
+
+body {
+    background-color: #e2f8ec;
+    color: #333333;
+  }
+  
+  .container > div {
+    margin: 20px auto;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: #9eb3a8;
+  }
